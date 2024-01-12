@@ -1,0 +1,26 @@
+[
+    {
+        "src" : "/persons/goblin.png",
+        "matched": false
+    },
+    {
+        "src" : "/persons/ghost.png",
+        "matched": false
+    },
+    {
+        "src" : "/persons/knight.png",
+        "matched": false
+    },
+    {
+        "src" : "/persons/mage.png",
+        "matched": false
+    },
+    {
+        "src" : "/persons/wolf.png",
+        "matched": false
+    },
+    {
+        "src" : "/persons/demon.png",
+        "matched": false
+    }
+]

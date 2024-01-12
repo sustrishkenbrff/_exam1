@@ -1,0 +1,30 @@
+.slides img {
+    width: 720px;
+    height: 400px;
+}
+.slides   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.slides button {
+    background: none;
+}
+
+.leftar {
+    rotate: 90deg;
+    cursor: pointer;
+    color: #d5d5d5;
+}
+.rightar {
+    rotate: 270deg;
+    cursor: pointer;
+    color: #d5d5d5;
+}
+.leftar:hover, .rightar:hover {
+    color:#ffb10f;
+}
+
+

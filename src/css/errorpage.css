@@ -1,0 +1,96 @@
+body {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  
+  
+  .txt {
+    font-size: 2.25rem;
+    font-family: IM Fell DW Pica,Times,Times Roman,Times New Roman,serif;
+    font-weight: 400;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    margin: 150px;
+    color: #d5d5d5;
+  }
+  
+  
+  button {
+    border: none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .start {
+    margin: 4px auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 0.375em 0.53125em calc(0.375em + 1px);
+    background-color: orange;
+    color: #272624;
+    cursor: pointer;
+    transition: color 0.35s ease, border-color 0.35s ease, background-color 0.35s ease;
+    box-sizing: border-box;
+    border: none;
+    margin: 15px;
+  }
+  
+  .start:hover {
+    background-color: yellow;
+  }
+  
+  .game {
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+  }
+  
+  .card {
+    cursor: pointer;
+    width: 150px;
+    height: 210px;
+    background: radial-gradient(circle at top,rgba(158,148,126,.2),rgba(20,19,18,.9) 500px);
+    border: 1px black solid;
+    border-radius:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: transform .7s;
+  }
+  
+  .card img {
+    width: 80%;
+    position: absolute;
+    backface-visibility: hidden;
+    pointer-events: none;
+  }
+  
+  .card.matched {
+    transform: rotateY(180deg);
+    border: 1px orange solid;
+  }
+  .card svg {
+    width: 100px;
+    height: 100px;
+    opacity: .3;
+  }
+  
+  .restart {
+    font-size: 40px !important;
+  }
+
+  .in-game {
+    font-family: IM Fell DW Pica,Times,Times Roman,Times New Roman,serif;
+    font-weight: 400;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    color: #d5d5d5;
+    margin-top: 50px;
+  }

@@ -1,0 +1,356 @@
+.newsmodule {
+    position: relative;
+    overflow: hidden;
+    max-width: 1920px;
+}
+
+.bgnews {
+    background: url(../assets/bgnews.jpeg) no-repeat;
+    background-position-x: 10%;
+    background-position-y: 39%;
+    min-height: 50vh;
+    width: 100vw;
+}
+
+.slogan {
+    display: flex;
+    align-items: center;
+    color: #d5d5d5;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+    width: 100vw;
+}
+
+.nlogo {
+    background-position-x: -627px;
+    position: relative;
+    height: 3px;
+    width: 127px;
+    background: url(//dqzvgunkova5o.cloudfront.net/statics/2024-01-06/images/new-world-sprites.png);
+    background-position-y: -244px;
+}
+
+.ntext {
+    font-size: 2.25rem;
+    font-family: IM Fell DW Pica,Times,Times Roman,Times New Roman,serif;
+    font-weight: 400;
+    letter-spacing: .3em;
+    padding: 18px;
+}
+
+
+.topland {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1080px;
+    margin: 32px auto;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(//dqzvgunkova5o.cloudfront.net/statics/2023-11-26/images/hatch-texture.png);
+    padding: 8px;
+    width: 50%;
+}
+
+.search form {
+    width: 100%;
+    position: relative;
+}
+
+.btn-src {
+    font-size: inherit;
+    font-family: inherit;
+    border: none;
+    padding: 0;
+    background: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.btn-src svg {
+    top: 8px;
+    left: 8px;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+}
+
+.input-src {
+    letter-spacing: 0;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: Amazon Ember,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    background-color: #272624;
+    color: #c7b299;
+    height: 2rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    outline: none!important;
+    border: none;
+    border-radius: 0;
+}
+
+.filter {
+    color: #d5d5d5;
+    position: relative;
+    min-width: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.filter-btn {
+    font-size: .9375rem;
+    line-height: 1;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: transparent;
+    border-color: transparent;
+    color: #ffb10f;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: Amazon Ember,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #d5d5d5;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    color: #ffb10f;
+}
+
+.fil {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 6px;
+    margin-top: 4px;
+    transition: transform 0.3s ease;
+
+}
+
+
+.states {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 104%;
+}
+
+.slot {
+    width: 33.3%;
+    display: inline-block;
+    height: auto;
+    padding: 0 2%;
+}
+
+.slot h4 {
+    display: inline-block;
+    font-family: Amazon Ember,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .8125rem;
+    line-height: 1;
+    letter-spacing: .24em;
+    text-transform: uppercase;
+    color: #fff1ce;
+    margin-bottom: 10px;
+}
+
+.slot-link {
+    height: auto;
+    border: 1px solid transparent;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.slot-img {
+    position: relative;
+}
+
+.slot-img img {
+    width: 100%;
+    height: auto;
+    transition: .2s;
+}
+
+.slot-blog {
+    width: 100%;
+    padding: 25px 18px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.slot-slog {
+    font-size: 1rem;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: IM Fell DW Pica,Times,Times Roman,Times New Roman,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.33333;
+    text-align: left;
+    width: 100%;
+    color: #d5d5d5;
+}
+
+.slot-disc {
+    color: #b2b2b2;
+    margin-top: 0.75em;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: Amazon Ember,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    display: block;
+    width: 100%;
+    word-break: normal;
+    overflow-wrap: anywhere;
+}
+
+.filters {
+    position: absolute;
+    top: 32px;
+    right: 0;
+    z-index: 7000;
+    min-width: 160px;
+    background-color: #141312;
+    text-align: right;
+    padding: 20px 15px;
+}
+
+.filters ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filters ul>li {
+    padding-bottom: 5px;
+}
+
+.fr-btn {
+    font-size: .9375rem;
+    letter-spacing: .12em;
+    font-weight: 700;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    font-size: 1rem;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: Amazon Ember,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .8125rem;
+    line-height: 1;
+    letter-spacing: .24em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: #d5d5d5;
+    text-align: right;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80px;
+    min-height: 32px;
+    padding: 0.375em 0.53125em calc(0.375em + 1px);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+.fr-btn:hover {
+    color:  #ffb10f;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-out;
+  }
+
+
+.errorsrc {
+    color: #d5d5d5;
+    margin-top: 4rem;
+}
+
+.errhd {
+    letter-spacing: 0;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: IM Fell DW Pica,Times,Times Roman,Times New Roman,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.33333;
+}
+
+.errbt {
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: Amazon Ember,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.slot-link:hover {
+    border: 1px solid #888;
+    background-color: rgba(61,40,18,.25);
+}
+
+
+.slot:hover img {
+    transform: scale(1.05);
+    transition: .2s;
+}

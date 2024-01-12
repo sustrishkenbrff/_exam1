@@ -1,0 +1,424 @@
+
+.heaven {
+    padding: 4rem 0 64px;
+    width: 85vw;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1080px;
+}
+
+.hvn-back {
+    color: #d5d5d5;
+    margin-bottom: 1rem;
+}
+
+.back-link {
+    font-size: 1rem;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: Amazon Ember,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .8125rem;
+    line-height: 1;
+    letter-spacing: .24em;
+    text-transform: uppercase;
+    color: #d5d5d5;
+}
+
+.back-link:before {
+    content: " ";
+    display: inline-block;
+    background: url(//dqzvgunkova5o.cloudfront.net/statics/2024-01-06/images/new-world-sprites.png) -54px -54px no-repeat;
+    width: 6px;
+    height: 11px;
+    margin-right: 8px;
+}
+
+.back-link:hover{
+    color:#ffb10f;
+}
+
+.hvn-title {
+    font-size: 3.375rem;
+    line-height: 1.2;
+    font-size: 1rem;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: IM Fell DW Pica,Times,Times Roman,Times New Roman,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.8125rem;
+    line-height: 1.2;
+    background-color: none;
+    color: #d5d5d5;
+    margin: 0;
+}
+
+.hvn-date {
+    display: inline-block;
+    font-size: 1rem;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: Amazon Ember,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .8125rem;
+    line-height: 1;
+    letter-spacing: .24em;
+    text-transform: uppercase;
+    color: #fff1ce;
+    margin-top: 1rem;
+}
+
+.newdisc {
+    padding-bottom: 16px;
+    position: relative;
+}
+
+.new-title {
+    padding: 25px;
+    position: relative;
+    background-image: linear-gradient(90deg,rgba(21,20,19,0),rgba(21,20,19,.7),rgba(21,20,19,0));
+    width: 100%;
+    margin-top: 150px;
+}
+
+.new-top-line {
+    position: absolute;
+    background: url(//dqzvgunkova5o.cloudfront.net/statics/2024-01-06/images/new-world-sprites.png);
+    top: -47px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-position-x: 0;
+    background-position-y: -305px;
+    width: 486px;
+    height: 51px;
+}
+
+.new-bot-line {
+    position: absolute;
+    background: url(//dqzvgunkova5o.cloudfront.net/statics/2024-01-06/images/new-world-sprites.png);
+    bottom: -47px;
+    left: 50%;
+    transform: rotateX(180deg) translateX(-50%);
+    background-position-x: 0;
+    background-position-y: -305px;
+    width: 486px;
+    height: 51px;
+}
+
+.new-txt{
+    line-height: 1;
+    text-align: center;
+    font-size: 2.25rem;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: IM Fell DW Pica,Times,Times Roman,Times New Roman,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.875rem;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    flex: 0 0 auto;
+    margin: 0;
+    color: #d5d5d5;
+}
+
+.new-head {
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(https://aresrpg.world/assets/page6bg-a0090b57.jpeg);
+    background-position-x: 0px;
+    background-position-y: -500px;
+}
+
+.disc {
+    padding: 0 48px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    color: #d5d5d5;
+}
+
+.disc-slog {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    font-family: IM Fell DW Pica,Times,Times Roman,Times New Roman,serif;
+    font-size: 1rem;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.875rem;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+}
+
+.disc-slog::before {
+    left: -14px;
+    background-position-x: -627px;
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: 3px;
+    width: 127px;
+    background: url(//dqzvgunkova5o.cloudfront.net/statics/2024-01-06/images/new-world-sprites.png);
+    background-position-y: -244px;
+}
+
+.disc-slog::after {
+    left: 4px;
+    background-position-x: -764px;
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: 3px;
+    width: 127px;
+    background: url(//dqzvgunkova5o.cloudfront.net/statics/2024-01-06/images/new-world-sprites.png);
+    background-position-y: -244px;
+}
+
+.disc-txt-slog {
+    margin-top: 50px;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: IM Fell DW Pica,Times,Times Roman,Times New Roman,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+}
+
+
+.disc-disc {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.disc-small {
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: Amazon Ember,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    margin-top: 2em;
+}
+
+.comments {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-left: 100px;
+    background-image: linear-gradient(90deg,rgba(21,20,19,.3),rgba(21,20,19,.9),rgba(21,20,19,.3));
+    margin-top:50px;
+}
+
+.comms {
+    margin-bottom: 70px;
+}
+
+.comms input {
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: Amazon Ember,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    background-color: #272624;
+    color: #c7b299;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    outline: none!important;
+    border: none;
+    border-radius: 0;
+    background-image: none;
+    box-shadow: none;
+    margin-right: 20px;
+}
+
+.add {
+    display: flex;
+    margin: 20px;
+}
+
+.add button {
+    color: #ffb10f;
+    border-color: #ffb10f;
+    border: 1px solid;
+    font-size: 1.5rem;
+    letter-spacing: .12em;
+    background-color: transparent;
+    transition-duration: .35s;
+    transition-timing-function: ease;
+    padding: 0.375em 0.53125em calc(0.375em + 1px);
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.add button:hover {
+    color:black;
+    background-color: #ffb10f;
+
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 200px;
+    min-height: 40px;
+    font-size: 2rem;
+    border: 0.1px solid;
+    padding: 5px;
+    color: orange;
+    margin-bottom: 30px;
+
+}
+
+.comment button {
+    background:none;
+    font-size: 1.8rem;
+    color:#d5d5d5;
+    padding: 0.375em 0.53125em calc(0.375em + 1px);
+}
+
+.comment button:hover {
+    color:black;
+    background-color: #ffb10f;
+    transition-duration: .35s;
+    transition-timing-function: ease;
+}
+
+.btns {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+
+.replie {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.replie input {
+    width: 300px;
+    height: 30px;
+    font-size: 1rem;
+}
+
+.replie button {
+    background:none;
+    font-size: 1rem;
+    color:#d5d5d5;
+    padding: 0.375em 0.53125em calc(0.375em + 1px);
+}
+
+.replie button:hover {
+    color:black;
+    background-color: #ffb10f;
+    transition-duration: .35s;
+    transition-timing-function: ease;
+}
+
+.fdc {
+    border: 1px solid;
+    border-color: black;
+    margin: 50px;
+}
+
+.reply-txt {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 20px;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    font-family: Amazon Ember,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    letter-spacing: .01em;
+    line-height: 1.2;
+    color: #b2b2b2;
+}
+
+.rep-del {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 1px solid;
+    border-color: lightblue;
+    padding: 5px;
+    margin: 5px;
+}
+
+.rep-del p {
+    margin-right: 20px;
+    max-width: 920px;
+    word-wrap: break-word;
+}
+
+.rep-del button {
+    background: none;
+    color: #b2b2b2;
+    font-size: .8rem;
+}
+
+.rep-del button:hover {
+    color: black;
+    background-color: #ffb10f;
+    transition-duration: .35s;
+    transition-timing-function: ease;
+}

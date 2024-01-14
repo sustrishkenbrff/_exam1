@@ -1,0 +1,78 @@
+
+.donate__info-item {
+    text-align: left;
+    padding: 15px 0 0;
+}
+
+.donate__info-item::after {
+    left: -2px;
+    position: absolute;
+    content: " ";
+    background-image: url(//dqzvgunkova5o.cloudfront.net/statics/2023-12-25/images/new-world-sprites.png);
+    background-position: -10px -229px;
+    width: 100%;
+    height: 1px;
+    opacity: .2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.donate__info-item-title {
+    font-family: 'AmazonRegular';
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.donate__info-item-title::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "+";
+    color: #ffb10f;
+    background-color: rgba(20, 19, 18, .9);
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    border: 1px solid rgba(158,148,126,.2);
+}
+
+.donate__info-item-title.active::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "-";
+    color: #ffb10f;
+    background-color: rgba(20, 19, 18, .9);
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    border: 1px solid rgba(158,148,126,.2);
+}
+
+.donate__info-item-popover, .donate__info-item-popover a {
+    font-size: 12px;
+    font-family: 'AmazonRegular';
+    color: #fff;
+}
+
+.donate__info-item-popover {
+    padding: 15px 0;
+    display: none;
+}
+
+.donate__info-item-popover.active {
+    display: block;
+}

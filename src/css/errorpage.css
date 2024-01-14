@@ -6,7 +6,10 @@ body {
     text-align: center;
   }
   
-  
+
+  .yes {
+    padding-bottom: 250px;
+  }
   
   .txt {
     font-size: 2.25rem;
@@ -52,6 +55,7 @@ body {
   }
   
   .card {
+    margin-left: 35px;
     cursor: pointer;
     width: 150px;
     height: 210px;

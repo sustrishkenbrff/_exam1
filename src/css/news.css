@@ -354,3 +354,31 @@
     transform: scale(1.05);
     transition: .2s;
 }
+
+
+.showmore {
+    color: #d5d5d5;
+    border-color: #d5d5d5;
+    border-radius: 0;
+    background-color: transparent;
+    margin-left: 476px;
+    margin-right: 476px;
+    margin-bottom: 2em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80px;
+    min-height: 32px;
+    padding: 0.375em 0.53125em calc(0.375em + 1px);
+    border: 1px solid;
+    transition-duration: .35s;
+    transition-timing-function: ease;
+    font-family: Amazon Ember,Arial,sans-serif;
+    font-size: .9375rem;
+    letter-spacing: .12em;
+}
+
+.showmore:hover {
+    background-color: #d5d5d5;
+    color: black;
+}

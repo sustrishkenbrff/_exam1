@@ -1,4 +1,3 @@
-// Comment.js
 import React, { useState } from 'react';
 
 const Comment = ({ comment, onDelete, onEdit, onReply }) => {

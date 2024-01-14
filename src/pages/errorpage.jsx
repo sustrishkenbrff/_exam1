@@ -98,7 +98,7 @@ function NotFound() {
         </div>
         <p className='in-game'>На жаль, цієї сторінки не існує, але ви можете спробувати свої сили в грі тут.</p>
       </> :
-    <div> 
+    <div className='yes'> 
     <button className='start' onClick={initGame}>
         СТАРТ
       </button>

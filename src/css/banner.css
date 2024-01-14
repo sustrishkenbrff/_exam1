@@ -1,0 +1,12 @@
+
+.banner {
+    min-height: 420px;
+    background-image: url('../assets/images/shop-header-web.png');
+    background-position-y: top;
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

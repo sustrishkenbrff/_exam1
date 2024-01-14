@@ -1,0 +1,49 @@
+
+.header__list-item-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #232220;
+    z-index: 100;
+}
+
+.header__list-item {
+    position: relative;
+}
+
+.header__item-list {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.header__list-item a {
+    font-family: 'AmazonRegular';
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 18px;
+}
+
+.header__list-item a, .header__list-item {
+    height: 100%;
+}
+
+.header__item-list-item a {
+    padding: 8px 18px;
+}
+
+.header__list-item a.active svg {
+    transform: rotate(180deg);
+}
+
+.header__list-item a:hover {
+    color: #ffb10f;
+    background-color: #141312;
+}

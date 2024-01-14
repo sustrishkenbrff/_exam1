@@ -9,6 +9,7 @@ function News() {
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedFilter, setSelectedFilter] = useState("all");
     const [isFilterMenuVisible, setFilterMenuVisible] = useState(false);
+    const [visibleNewsCount, setVisibleNewsCount] = useState(3);
 
     const filteredNews = newsData.filter((news) => {
         const filterCondition =
@@ -25,6 +26,13 @@ function News() {
       const handleFilterOptionClick = (filter) => {
         setSelectedFilter(filter);
         setFilterMenuVisible(false);
+      };
+
+      const handleShowMoreClick = () => {
+        setVisibleNewsCount((prevCount) => prevCount + 3);
+      };
+      const handleShowLessClick = () => {
+        setVisibleNewsCount(3);
       };
     
     return ( 
@@ -81,7 +89,8 @@ function News() {
                         <li>Переконайтеся, що всі слова написані правильно</li>
                         <li>Пошук виконується лише за назвою статті</li>
                     </ul> </div>        ) : (
-            filteredNews.map((news, index) => (
+
+            filteredNews.slice(0, visibleNewsCount).map((news, index) => (
               <div key={index} className="slot">
                 <h4>{news.title}</h4>
                 <a className="slot-link" aria-label={news.title} href={news.link}>
@@ -96,6 +105,18 @@ function News() {
               </div>
             ))
           )}
+            {filteredNews.length > visibleNewsCount ? (
+              <div>
+                {visibleNewsCount === 3 ? (
+                  <button className="showmore" onClick={handleShowMoreClick}>Показати ще</button>
+                ) : (
+                  <div>
+                  <button className="showmore" onClick={handleShowMoreClick}>Показати ще</button>
+                  <button className="showmore" onClick={handleShowLessClick}>Сховати</button>
+                  </div>
+                )}
+              </div>
+            ) :  <button className="showmore" onClick={handleShowLessClick}>Сховати</button>}
         </div>
             </section>
     </div>

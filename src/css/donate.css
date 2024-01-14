@@ -1,0 +1,23 @@
+.donate {
+    padding: 45px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.donate__block {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.title {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'AmazonRegular';
+    font-size: 36px;
+    letter-spacing: 11px;
+}

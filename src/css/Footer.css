@@ -1,0 +1,122 @@
+
+.footer {
+    padding: 30px 45px;
+    background-color: #232220;
+    margin-top: 30px;
+    position: relative;
+}
+
+.footer__top-line {
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    top: -7%;
+    left: 0;
+    background: linear-gradient(0deg, rgba(158, 148, 126, .4), rgba(158, 148, 126, 0));
+    opacity: .3;
+}
+
+.footer__top-line::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    height: 12px;
+    transform: translateX(-50%);
+    background: url('./../assets/images/new-world-sprites.png') 0 -282px repeat-x;
+    opacity: .3;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+
+.footer__logo {
+    width: 200px;
+}
+
+.footer__to-top-btn {
+    text-align: center;
+}
+
+.footer__to-top-btn a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: calc(75% - .1em);
+    width: 167px;
+    height: 167px;
+    transform: translate(-50%, -50%);
+    background: url('./../assets/images/new-world-sprites.png') -166px -1px;
+}
+
+.footer__to-top-btn a {
+    font-family: 'AmazonRegular';
+    font-size: 60px;
+    line-height: 32px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    padding-left: 34px;
+}
+
+.footer__to-top-btn a:hover {
+    color: #ffb10f;
+}
+
+.footer__top-ersb {
+    width: 230px;
+    height: 154px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    position: relative;
+}
+
+.footer__middle-line {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 50%;
+    height: 1px;
+    transform: translateX(-50%);
+    background: url('./../assets/images/new-world-sprites.png') -10px -229px;
+}
+
+.footer__bottom-amazon {
+    width: 45px;
+}
+
+.footer__bottom-amazon a:hover svg {
+    fill: #ffb10f;
+}
+
+.footer__bottom-social-list {
+    display: flex;
+    gap: 12px;
+}
+
+.footer__social-list-item a svg {
+    fill: #fff;
+    transition: all 0.5s
+}
+
+.footer__social-list-item a:hover svg {
+    fill: #ffb10f;
+}
+
+.footer__copyright {
+    font-family: 'AmazonRegular';
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+}
